@@ -1,5 +1,3 @@
-Created for COS30002 AI for Games by Clinton Woodward cwoodward@swin.edu.au
-
 Graph Searching
 ===============
 
@@ -8,7 +6,7 @@ Objective: To understand Depth First Search (DFS), Breadth First Search (BFS), D
 
 Quick Start:
 ------------
-Download code for this lab from blackboard. Extract to your favourite work location. The file to run is main.py. You will need to specify a map file to load. Something like:
+Download code. Extract to your favourite work location. The file to run is main.py. You will need to specify a map file to load. Something like:
   C:>python main.py map1.txt
 
 Keys:
