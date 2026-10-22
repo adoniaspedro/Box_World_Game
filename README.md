@@ -5,13 +5,13 @@ Go to the main.py file and change the **filename** variable name to either the m
 And then simply run the main.py file
 
 If wanting to run the application on the Windows cmd terminal:
-### Running with the first map
+### Running the app with the first map
 *python main.py map1.txt*
 
-### Running with the second map
+### Running the app with the second map
 *python main.py map2.txt*
 
-### Running with the third map
+### Running the app with the third map
 *python main.py map3.txt*
 
 
