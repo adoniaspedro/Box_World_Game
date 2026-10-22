@@ -1,7 +1,7 @@
 # Box World
 
 ## Running the application
-Go to the main.py file and change the *filename* variable name to either the map1.txt, map2.txt or map3.txt files.
+Go to the main.py file and change the **filename** variable name to either the map1.txt, map2.txt or map3.txt files.
 And then simply run the main.py file
 
 If wanting to run the application on the Windows cmd terminal:
@@ -26,11 +26,11 @@ Download code. Extract to your favourite work location. The file to run is main.
 
 Keys (map1 and map2):
 -----
-1: “clear” (white)
-2: “mud” (grey-brownish)
-3: “water” (blue)
-4: “wall” (black)
-5: “start”
+1: “clear” (white)<br>
+2: “mud” (grey-brownish)<br>
+3: “water” (blue)<br>
+4: “wall” (black)<br>
+5: “start”<br>
 6: “target”
 
 Keys (map3):
@@ -99,26 +99,41 @@ Try changing boxes (for example turn a stretch of road into water, or open a gap
 About maps 1 and 2
 ----
 There are two simple maps to start with named map1.txt and map2.txt. You can create your own later if you wish.
+
 The worlds boxes can be changed with a combination of selecting the box “kind” (show in the top left text) and then left-clicking on to a box. There are currently four different box kinds:
-  1: “clear” (white)
-  2: “mud” (grey-brownish)
-  3: “water” (blue)
-  4: “wall” (black)
+
+- 1: “clear” (white)
+- 2: “mud” (grey-brownish)
+- 3: “water” (blue)
+- 4: “wall” (black)
+
 Walls are not included (have no edges) in the navigation graph.
-For each search a start (“S”) and target (“T”) box is needed. To change the location of either, first set the kind value, and click on to a box.
-  5: “start”
-  6: “target”
+
+For each search a start (“S”) and target (“T”) box is needed. To change the location of either, first set the kind value, and click on to a box:
+
+- 5: “start”
+- 6: “target”
+
 You can allocate start or target to wall box that has no edges, however this will stop any search from being successful!
+
 Pressing the SPACE key will perform a search using the current map and search mode, however most changes to the world force a new search to be done immediately.
-  "SPACE": performace full search (if not already done)
+
+- "SPACE": performace full search (if not already done)
+
 There are currently four different search modes, which can be cycled through using the N and M keys (backwards and forwards respectively).
-  "N": previous search mode
-  "M": next search mode
+
+- "N": previous search mode
+- "M": next search mode
+
 The search modes are:
-  “BFS” for Best First search algorithm
-  “DFS” for Depth First search algorithm “Dijkstra” for Dijkstra’s lowest-cost-so-far search algorithm
-  “A*” (written as “AStar”) for the lowest cost-so-far + lowest-estimated-cost algorithm
+
+- “BFS” for Best First search algorithm
+- “DFS” for Depth First search algorithm
+- “Dijkstra” for Dijkstra’s lowest-cost-so-far search algorithm
+- “A*” (written as “AStar”) for the lowest cost-so-far + lowest-estimated-cost algorithm
+
 Search “depth” (the number of search steps taken) can be limited and changed using the UP and DOWN arrow keys. The limit can be removed using the “0” key.
-  "UP": increase search step depth limit
-  "DOWN": decrease search step depth
-  "0": remove search step limit
+
+- "UP": increase search step depth limit
+- "DOWN": decrease search step depth
+- "0": remove search step limit
