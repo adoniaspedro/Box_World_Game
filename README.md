@@ -22,7 +22,7 @@ Objective: Depth First Search (DFS), Breadth First Search (BFS), Dijkstra’s an
 Quick Start:
 ------------
 Download code. Extract to your favourite work location. The file to run is main.py. You will need to specify a map file to load. Something like:
-  C:>python main.py map1.txt
+  **    C:>python main.py map1.txt**
 
 Keys (map1 and map2):
 -----
@@ -35,24 +35,24 @@ Keys (map1 and map2):
 
 Keys (map3):
 -----
-1: "bush" (white)
-2: "mud" (grey-brownish)
-3: "water" (aqua)
-4: "mountain" (light green)
-5: "road" (orange)
-6: "wall" (dark grey)
-7: "start"
+1: "bush" (white)<br>
+2: "mud" (grey-brownish)<br>
+3: "water" (aqua)<br>
+4: "mountain" (light green)<br>
+5: "road" (orange)<br>
+6: "wall" (dark grey)<br>
+7: "start"<br>
 8: "target"
 
-SPACE: force a replan (execute search)
-N and M: cycle (back or forward) through the search methods and replan.
-UP and DOWN: Increase or decrease the search step limit by one.
+SPACE: force a replan (execute search)<br>
+N and M: cycle (back or forward) through the search methods and replan.<br>
+UP and DOWN: Increase or decrease the search step limit by one.<br>
 0: Remove the search step limit. (A full search will be performed.)
 
-E: toggle edges on/off for the current navigation graph (thin blue lines)
-L: toggle box (node) index values on/off (useful for understanding search and path details).
-C: toggle box “centre” markers on/off
-T: toggle tree on/off for the current search if available
+E: toggle edges on/off for the current navigation graph (thin blue lines)<br>
+L: toggle box (node) index values on/off (useful for understanding search and path details).<br>
+C: toggle box “centre” markers on/off<br>
+T: toggle tree on/off for the current search if available<br>
 P: toggle path on/off for the current search if there is a successful route.
 
 About map 3
