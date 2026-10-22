@@ -1,7 +1,7 @@
 # Box World
 
 ## Running the application
-Go to the main.py file and change the **filename** variable variable to either the *"map1.txt"*, *"map2.txt"* or *"map3.txt"* files.
+Go to the main.py file and change the **filename** variable value to either the *"map1.txt"*, *"map2.txt"* or *"map3.txt"* files.
 And then simply run the main.py file
 
 If wanting to run the application on the Windows cmd terminal:
