@@ -1,14 +1,3 @@
-'''  PriorityQueue and Path classes for DFS, BSF, Dijkstra and A* searches
-
-Created for COS30002 AI for Games, Lab,
-by Clinton Woodward <cwoodward@swin.edu.au>
-
-For class use only. Do not publically share or post this code without
-permission.
-
-See readme.txt for details.
-
-'''
 from heapq import heappush, heappop
 
 class PriorityQueue(object):

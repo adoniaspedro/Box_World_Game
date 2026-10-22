@@ -1,13 +1,3 @@
-''' 2D Point
-
-Created for COS30002 AI for Games, Lab,
-by Clinton Woodward <cwoodward@swin.edu.au>
-
-For class use only. Do not publically share or post this code without
-permission.
-
-'''
-
 class Point2D(object):
 
     __slots__ = ('x','y')

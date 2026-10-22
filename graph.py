@@ -1,14 +1,3 @@
-''' Edge, Node and SparseGraph classes to support navigation graphs and cost
-based searches for path between points.
-
-Created for COS30002 AI for Games, Lab,
-by Clinton Woodward <cwoodward@swin.edu.au>
-
-For class use only. Do not publically share or post this code without
-permission.
-
-'''
-
 class Edge(object):
     '''A single weighted (has a cost) and directed (has direction) edge. '''
     def __init__(self, from_idx=-1, to_idx=-1, cost=0.0):
